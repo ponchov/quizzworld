@@ -1,0 +1,522 @@
+body
+{
+	background:#ffffff;
+}
+
+#topmenu
+{
+	background:#ffde2f;
+}
+#slide-nav {
+	background:#ffde2f;
+}
+
+.domain_like_box
+{
+	padding-top:23px;
+}
+
+#logo
+{
+	padding-top:15px;
+}
+#topmenu .nav > li > a:hover,
+#topmenu .nav > li > a:focus {
+	background:none !important;
+	color:#000000;	
+}
+
+#topmenu .nav > li > a
+{
+	color:#000000;
+	font-size:18px;
+	padding: 10px 31px
+}
+
+#topmenu ul.nav 
+{
+	padding-top:10px;
+}
+.home_header_bottom
+{
+	clear:both;
+	padding-top:70px;
+}
+
+#featured_post
+{
+	padding:0;
+}
+.featured_caption
+{
+	height:75px;
+	background:#ffde2f;
+	padding:5px;
+}
+
+.latest_games_caption
+{
+	height:60px;
+	padding:5px 0;
+}
+
+
+.top_games_caption
+{
+	height:60px;
+	padding:5px 0;
+}
+
+.top_headline
+{
+	text-align:center;
+}
+
+#latest_headline, #top_headline
+{
+	background:#ffde2f;
+	padding:6px 15px;
+	font-size:20px;
+}
+
+.latest_title a, .latest_games_caption a, .top_games_caption a, .featured_caption a
+{
+	text-align:justify;
+	color:#000000;
+}
+
+.latest_games_caption a
+{
+	font-size:20px;
+}
+	
+#right_panel
+{
+	border-left:1px solid #cccccc;
+	padding:0;
+}
+
+.latest_title_mob
+{
+	background:#ffde2f;
+	bottom:60px;
+	position:absolute;
+	font-size:13px;
+	padding:0 3px;
+	
+}
+
+.top_num
+{
+	background:#ffde2f;
+	bottom:60px;
+	position:absolute;
+	font-size:15px;
+	padding:0 5px;
+	font-weight:bold;
+}
+
+.top_title
+{
+	background:#ffde2f;
+	bottom:60px;
+	position:absolute;
+	font-size:13px;
+	padding:0 3px;
+}
+
+#list_header
+{
+	background:#dfdfdf;
+	border-bottom: 2px solid #cccccc;
+    height: 65px;
+}
+#list_header .logo
+{
+	height:53px;
+	padding-top:17px;
+}
+
+.list_title
+{
+	font-size:30px;	
+	font-weight:bold;
+	
+}
+
+#list_right_panel
+{
+	border-left:1px solid #cccccc;
+}
+#list_left_-panel {
+	margin:0;
+	padding:0;
+
+
+}
+.domain_like_box
+{
+	width:160px;
+	text-align:right;
+}
+.item_title {
+	font-weight:bold;
+	font-size:25px;
+	color:#000000;
+	padding-bottom:20px;
+
+
+}
+.list_border {
+	border-bottom:1px solid #CCCCCC;
+	padding-bottom:10px;
+	padding-top:20px;
+
+}
+.list_of_item_title{
+	padding:0;
+	height:auto
+
+
+}
+.item_image {
+	padding-bottom:10px;
+
+
+}
+.item_description {
+	text-align:justify;
+
+
+}
+.list_title {
+	padding:0px !important;
+	margin:0;
+
+
+}
+.snipet_1 {
+	font-size:16px;
+	text-align:justify;
+	padding-bottom:15px;
+	
+} 
+.list_image {
+	padding-bottom:15px;
+
+}
+.snipet_2 {
+	font-size:23px;
+	padding-bottom:15px;
+
+}
+.snipet_3 {
+	font-size:23px;
+	padding-bottom:15px;
+
+}
+.description {
+	font-size:16px;
+	text-align:justify;
+
+}
+
+.fb_like_box_small
+{
+	display:none;
+}
+
+.social_link
+{
+	margin:10px 0;
+}
+
+.facebook-popup {
+    bottom: 0px;
+    /*height: 263px;*/
+    overflow: hidden;
+    position: fixed;
+    right: 0px;
+	background:#EDEFF4;
+	padding:3px 5px 5px;
+	z-index:100;
+	border:1px solid #cccccc;
+	-webkit-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
+}
+
+.fb_text
+{
+	font-size:20px;
+	color:#5777CE;
+}
+.fb_popup_close
+{
+	border-bottom:1px solid #CCCCCC;
+}
+
+.fb_popup_close a
+{
+	cursor:pointer;
+	font-weight:bold;
+	font-size:22px;
+}
+.img-rounded_custom
+{
+	border-radius: 15px;
+}
+
+.youtube_video, .vimeo_video
+{
+	width:auto;
+	height:auto;
+}
+
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1100px;
+  }
+  
+  .list_container 
+  {
+    width: 1140px;
+  }
+  
+  #topmenu ul.nav 
+   {
+	 padding:10px 85px;
+   }
+}
+
+
+
+ 
+@media only screen and (max-width: 1000px) { 
+	
+	.nav-justified > li
+	{
+		width:auto !important;
+	}
+	#topmenu .nav > li > a
+	{
+		font-size:12px;
+		font-weight:bold;
+	}
+	.featured_caption
+	{
+		height:70px;
+		font-size:12px;
+	}
+	
+	.latest_title a, .top_games_caption a, .featured_caption a
+	{
+		font-size:12px;
+		text-align:justify;
+	}
+	
+	#topmenu .nav > li > a
+	{
+		padding: 10px 25px
+	}
+	
+	.domain_like_box
+	{
+		width:130px;
+	}
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 945px) { 
+	.fb_like_box_big
+	{
+		display:none;
+	}
+	.fb_like_box_small
+	{
+		display:inline;
+	}
+	
+	.slick-next {
+		right: -3px;
+	}
+	
+	.slick-prev {
+		left: -3px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.latest_title a, .latest_games_caption a, .top_games_caption a, .featured_caption a
+	{
+		font-size:14px;
+	}
+	.latest_games_caption, .top_games_caption
+	{
+		padding:0;
+	}
+	.top_headline
+	{
+		text-align:left;
+	}
+	#latest_headline, #top_headline
+	{
+		font-size:18px;
+		background:none;
+		padding:0;
+	}
+	
+	#topmenu .nav > li > a
+	{
+		color:#ffde2f;
+	}
+	
+	#topmenu .nav > li > a:hover,
+	#topmenu .nav > li > a:focus {
+		color:#ffde2f;	
+	}
+	
+	.domain_like_box
+	{
+		text-align:left;
+	}
+	.navbar-brand
+	{
+		padding-top:12px;
+	}
+	
+	.navbar-header
+	{
+		float:left;
+	}
+	
+	.domain_like_box
+	{
+		padding-top:14px;
+	}
+	.home_header_bottom
+	{
+		height:50px;
+	}
+	
+	.featured_caption
+	{
+		height:auto;		
+		position:absolute;
+		bottom:0;
+		width:92%;
+	}
+	.featured_caption a
+	{
+		font-size:12px;
+	}
+	.latest_games_caption a
+	{
+		font-size:12px;
+	}
+	
+	
+
+}
+
+@media only screen and (max-width: 700px) {
+	.featured_caption
+	{
+		width:91%;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.featured_caption
+	{
+		width:90%;
+	}
+}
+
+@media only screen and (max-width: 604px) {
+	.featured_caption
+	{
+		width:89%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.featured_caption
+	{
+		width:88%;
+	}
+	
+	.youtube_video, .vimeo_video
+	{
+		width:100%
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.featured_caption
+	{
+		width:86%;
+	}
+}
+
+@media only screen and (max-width: 449px) {
+	.featured_caption
+	{
+		width:92%;
+	}
+}
+
+
+@media only screen and (max-width: 400px) {
+	.latest_title a, .latest_games_caption a, .top_games_caption a, .featured_caption a
+	{
+		font-size:11px;
+	}
+	
+	.latest_title_mob
+	{
+		font-size:9px;
+	}
+	..top_title
+	{
+		font-size:9px;
+	}
+	
+	.featured_caption
+	{
+		width:91%;
+	}
+	
+	.fb_text
+	{
+		font-size:13px;
+		font-weight:bold;
+	}
+	.fb_popup_close a
+	{
+		font-size:13px;
+	}
+	.facebook-popup
+	{
+		width:170px;
+	}
+	.top_title
+	{
+		font-size:11px;
+		padding:0 1px;
+	}
+	
+	#bottom_list h3
+	{
+		font-size:18px;
+	}
+}
+
+
+
+@media only screen and (max-width: 330px) {
+	.featured_caption
+	{
+		width:89%;
+	}
+}

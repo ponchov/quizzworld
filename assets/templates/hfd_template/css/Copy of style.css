@@ -1,0 +1,937 @@
+@font-face
+{
+	font-family: opensans;
+	src: url('font/OpenSans-Regular.ttf'); 
+}
+
+@font-face
+{
+	font-family: opensans_semibold;
+	src: url('font/OpenSans-Semibold.ttf'); 
+}
+
+@font-face
+{
+	font-family: RobotoSlab_Regular;
+	src: url('font/RobotoSlab-Regular.ttf'); 
+}
+
+
+body
+{
+	background:#ffffff;
+	padding-top:70px;
+	font-family:opensans;
+}
+
+#topmenu
+{
+	background:#ffde2f;
+}
+#slide-nav {
+	background:#f40350;
+}
+
+.domain_like_box
+{
+	padding-top:23px;
+}
+
+#logo
+{
+	padding-top:15px;
+}
+#topmenu .nav > li > a:hover,
+#topmenu .nav > li > a:focus {
+	background:none !important;
+	color:#FFFFFF;	
+}
+
+#topmenu .nav > li > a
+{
+	color:#FFFFFF;
+	font-size:20px;
+	padding: 10px 22px;
+	
+}
+
+#topmenu ul.nav 
+{
+	padding-top:10px;
+}
+.home_header_bottom
+{
+	clear:both;
+	padding-top:70px;
+}
+
+#featured_post
+{
+	padding:0;
+}
+.featured_caption
+{
+	height:75px;
+	background:#f40350;
+	padding:5px;
+	border-radius:0px 0px 6px 6px;
+}
+
+.latest_games_caption
+{
+	height:140px;
+	padding:5px 0;
+}
+
+
+.top_games_caption
+{
+	height:60px;
+	padding:5px 0;
+}
+
+.top_headline
+{
+	text-align:center;
+}
+
+#latest_headline, #top_headline
+{
+	background:#f40350;
+	padding:6px 15px;
+	font-size:20px;
+	color:#FFFFFF;
+}
+latest_headline
+
+.latest_title a, .latest_games_caption a, .top_games_caption a
+{
+	color:#000000;
+	
+}
+
+.featured_caption a
+{
+	font-size:20px;
+	color:#FFFFFF;
+	text-align:justify;
+}
+
+.latest_games_caption a
+{
+	font-size:26px;
+	line-height:1.009;
+}
+.latest_description
+{
+	padding:8px 0;
+}
+.latest_description a
+{
+	font-size:16px;
+	
+}
+
+.top_games_caption a
+{
+	font-size:18px;
+}
+.featured_title
+{
+	font-weight:bold;
+	
+}
+.navbar-brand {
+		padding:5px 15px 0 !important;
+	
+	}
+
+.latest_title
+{
+	font-weight:bold;
+	color:#4d4d4d;
+	font-size:10px;
+}
+	
+#right_panel
+{
+	border-left:1px solid #cccccc;
+	padding:0;
+}
+
+
+
+.top_num
+{
+	background:#f40350;
+	bottom:60px;
+	position:absolute;
+	font-size:15px;
+	padding:0 5px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.top_title
+{
+	background:#f40350;
+	bottom:60px;
+	position:absolute;
+	font-size:13px;
+	padding:0 3px;
+	color:#FFFFFF;
+}
+
+#list_header
+{
+	background:#dfdfdf;
+	border-bottom: 2px solid #cccccc;
+    height: 65px;
+}
+#list_header .logo
+{
+	height:53px;
+	padding-top:17px;
+}
+
+.list_title
+{
+	font-size:30px;	
+	font-weight:bold;
+	
+}
+
+#list_right_panel
+{
+	border-left:1px solid #cccccc;
+}
+#list_left_-panel {
+	margin:0;
+	padding:0;
+
+
+}
+.domain_like_box
+{
+	width:160px;
+	text-align:right;
+}
+.item_title {
+	font-weight:bold;
+	font-size:25px;
+	color:#000000;
+	padding-bottom:20px;
+
+
+}
+.list_border {
+	border-bottom:1px solid #CCCCCC;
+	padding-bottom:10px;
+	padding-top:20px;
+
+}
+.list_of_item_title{
+	padding:0;
+	height:auto
+
+
+}
+.item_image {
+	padding-bottom:10px;
+
+
+}
+.item_description {
+	text-align:justify;
+
+
+}
+.list_title {
+	padding:0px !important;
+	margin:0;
+
+
+}
+.snipet_1 {
+	font-size:16px;
+	text-align:justify;
+	padding-bottom:15px;
+	
+} 
+.list_image {
+	padding-bottom:15px;
+
+}
+.snipet_2 {
+	font-size:23px;
+	padding-bottom:15px;
+
+}
+.snipet_3 {
+	font-size:23px;
+	padding-bottom:15px;
+
+}
+.description {
+	font-size:16px;
+	text-align:justify;
+
+}
+
+.fb_like_box_small
+{
+	display:none;
+}
+
+.social_link
+{
+	margin:10px 0;
+}
+
+.facebook-popup {
+    bottom: 5px;
+    overflow: hidden;
+    position: fixed;
+    right: -330px;
+    /*right:0;*/
+	background:#EDEFF4;
+	padding:3px 5px 5px;
+	z-index:100;
+	border:1px solid #cccccc;
+	-webkit-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
+}
+
+.fb_text
+{
+	font-size:20px;
+	color:#5777CE;
+}
+.fb_popup_close
+{
+	border-bottom:1px solid #CCCCCC;
+}
+
+.fb_popup_close a
+{
+	cursor:pointer;
+	font-weight:bold;
+	font-size:22px;
+}
+.img-rounded_custom
+{
+	border-radius: 20px;
+}
+
+.img_rounded_featured
+{
+	border-radius: 6px 6px 0px 0px;
+}
+
+.youtube_video, .vimeo_video
+{
+	width:auto;
+	height:auto;
+}
+
+.latest_item_box
+{
+	margin-bottom:5px;
+}
+
+.more_title
+{
+	font-size:24px;
+	
+}
+.fb_box {
+	border:1px solid #AAAAAA;
+	overflow:hidden;
+
+}
+.fb_title {
+	padding:5px 10px;;
+	background:#EDEFF4;
+	color:#000000;
+	font-weight:bold;
+	font-size:11px;
+	text-align:left;
+
+}
+
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1100px;
+  }
+  
+  .list_container 
+  {
+    width: 1140px;
+  }
+  
+  #topmenu ul.nav 
+   {
+	 padding:10px 85px;
+   }
+}
+
+
+
+ 
+@media only screen and (max-width: 1000px) { 
+	
+	.nav-justified > li
+	{
+		width:auto !important;
+	}
+	#topmenu .nav > li > a
+	{
+		font-size:12px;
+		font-weight:bold;
+	}
+	.featured_caption
+	{
+		height:70px;		
+	}
+	
+	.latest_title a, .top_games_caption a, .featured_caption a
+	{
+		
+		text-align:justify;
+	}
+	
+	#topmenu .nav > li > a
+	{
+		padding: 10px 22px
+	}
+	
+	.domain_like_box
+	{
+		width:130px;
+	}
+	.latest_games_caption a 
+	{
+		font-size:18px;
+	}
+	.latest_description a 
+	{
+		font-size:15px;
+	}
+	
+	.featured_caption a
+	{
+		font-size:15px;
+		font-weight:bold;
+	}
+	.top_games_caption a
+	{
+		font-size:15px;
+		font-weight:bold;
+	}
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 945px) { 
+	.fb_like_box_big
+	{
+		display:none;
+	}
+	.fb_like_box_small
+	{
+		display:inline;
+	}
+	
+	.slick-next {
+		right: -3px;
+	}
+	
+	.slick-prev {
+		left: -3px;
+	}
+	
+	.domain_like_box
+	{
+		padding-top:20px;
+	}
+	.navbar-brand
+	{
+		padding-top:10px;
+	}
+	#topmenu .nav > li > a
+	{
+		padding:10px 15px;
+		font-size:15px;
+	}
+	
+	
+}
+@media only screen and (max-width: 767px) {
+	.latest_title a, .latest_games_caption a, .top_games_caption a, .featured_caption a
+	{
+		font-size:14px;
+		
+	}
+	.latest_games_caption, .top_games_caption
+	{
+		padding:0;
+	}
+	.top_headline
+	{
+		text-align:left;
+	}
+	#latest_headline, #top_headline
+	{
+		font-size:18px;
+		background:#f40350!important;
+		padding:0;
+	}
+	
+	#topmenu .nav > li > a
+	{
+		color:#920030;
+	}
+	
+	#topmenu .nav > li > a:hover,
+	#topmenu .nav > li > a:focus {
+		color:#f40350;	
+	}
+	
+	.domain_like_box
+	{
+		text-align:left;
+	}
+	.navbar-brand
+	{
+		padding-top:12px;
+	}
+	
+	.navbar-header
+	{
+		float:left;
+	}
+	
+	
+	.home_header_bottom
+	{
+		height:50px;
+	}
+	
+	.latest_title_mob
+	{
+		background:#f40350;
+		bottom:140px;
+		position:absolute;
+		font-size:13px;
+		padding:0 5px;
+		color:#FFFFFF;
+	}
+	#right_panel
+	{
+		border-left:none !important;
+	}
+	
+	.top_headline
+	{
+		margin-top:20px;
+	}
+	
+	.featured_caption
+	{
+		height:auto;		
+		position:absolute;
+		bottom:0;
+		width:92%;
+		border-radius:0px;
+		
+	}
+
+	.featured_caption a
+	{
+		font-size:18px;
+		font-weight:normal;
+	}
+	.latest_games_caption a
+	{
+		font-size:18px;
+	}
+	
+	.latest_description a 
+	{
+		font-size:15px;
+	}
+	
+	#topmenu .nav > li > a
+	{
+		padding:10px 15px;
+	}
+	.latest_description
+	{
+		padding:2px 0;
+	}
+	
+	.latest_games_caption
+	{
+		height:60px;
+	}
+	.latest_title_mob
+	{
+		bottom:60px;
+	}
+
+}
+
+@media only screen and (max-width: 700px) {
+	.featured_caption
+	{
+		width:91%;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.featured_caption
+	{
+		width:90%;
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	.featured_caption
+	{
+		width:89.5%;
+	}
+}
+
+@media only screen and (max-width: 601px) {
+	.featured_caption
+	{
+		width:89%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.featured_caption
+	{
+		width:88%;
+	}
+	
+	.youtube_video, .vimeo_video
+	{
+		width:100%
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.featured_caption
+	{
+		width:86%;
+	}
+}
+
+@media only screen and (max-width: 449px) {
+	.featured_caption
+	{
+		width:92%;
+	}
+}
+
+
+@media only screen and (max-width: 400px) {
+	.latest_title a, .latest_games_caption a, .top_games_caption a 
+	{
+		font-size:14px;
+		font-weight:normal;
+	}
+	.latest_description a
+	{
+		font-size:12px;
+	}
+	.featured_caption a
+	{
+		font-size:16px;
+		font-weight:normal;
+	}
+	
+	.latest_title_mob
+	{
+		font-size:9px;
+	}
+	.top_title
+	{
+		font-size:9px;
+	}
+	
+	.featured_caption
+	{
+		width:92%;
+	}
+	
+	.fb_text
+	{
+		font-size:13px;
+		font-weight:bold;
+	}
+	.fb_popup_close a
+	{
+		font-size:13px;
+	}
+	.facebook-popup
+	{
+		width:170px;
+	}
+	.top_title
+	{
+		font-size:11px;
+		padding:0 1px;
+	}
+	
+	#bottom_list h3
+	{
+		font-size:18px;
+	}
+	.list_title
+	{
+		font-size:26px;
+	}
+	.list_of_item_title a
+	{
+		font-size:16px;
+	}
+	
+	.container, .col-xs-6
+	{
+		padding-left:0 !important;
+		padding-right:0 !important;
+	}
+	
+	.col-xs-6
+	{
+		padding-left:5px !important;
+		padding-right:5px !important;
+	}
+	
+	.latest_games_caption
+	{
+		height:50px;
+	}
+	.latest_title_mob
+	{
+		bottom:50px;
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	.featured_caption
+	{
+		width:91.50%;
+	}
+	#latest_headline {
+		
+	
+	}
+}
+
+@media only screen and (max-width: 330px) {
+	.featured_caption
+	{
+		width:90.50%;
+	}
+}
+
+
+
+
+
+/*.slick-prev, .slick-next {
+	background: #999999;
+    display: block;
+    position: absolute;
+    top: 29px;
+    width: 30px;
+	height:92%;
+}
+
+@media only screen and (max-width: 1000px) {
+	.slick-prev, .slick-next {
+    top: 29px;
+	height:90%;
+}
+}*/
+
+
+
+
+
+
+
+
+
+
+
+/* adjust body when menu is open */
+body.slide-active {
+    overflow-x: hidden
+}
+/*first child of #page-content so it doesn't shift around*/
+.no-margin-top {
+    margin-top: 0px!important
+}
+/*wrap the entire page content but not nav inside this div if not a fixed top, don't add any top padding */
+#page-content {
+    position: relative;
+    padding-top: 0px;
+    left: 0;
+}
+#page-content.slide-active {
+    padding-top: 0
+}
+
+
+
+/* put toggle bars on the left :: not using button */
+#slide-nav .navbar-toggle {
+    cursor: pointer;
+    position: relative;
+    line-height: 0;
+    float: left;
+    margin: 0;
+    width: 30px;
+    height: 40px;
+    padding: 10px 0 0 0;
+    border: 0;
+    background: transparent;
+}
+/* icon bar prettyup - optional */
+#slide-nav .navbar-toggle > .icon-bar {
+    width: 100%;
+    display: block;
+    height: 3px;
+    margin: 5px 0 0 0;
+}
+#slide-nav .navbar-toggle.slide-active .icon-bar {
+    background: #920030;
+}
+.navbar-header {
+    position: relative
+}
+.slide-active .nav li{
+	border-bottom:1px solid #CCCCCC !important;
+	
+}
+
+/* un fix the navbar when active so that all the menu items are accessible */
+.navbar.navbar-fixed-top.slide-active {
+   /* position: relative*/
+}
+/* screw writing importants and shit, just stick it in max width since these classes are not shared between sizes */
+@media (max-width:767px) { 
+	#slide-nav .container {
+	    margin: 0!important;
+	    padding: 0!important;
+      height:100%;
+	}
+	#slide-nav .navbar-header {
+	    margin: 0 auto;
+	    padding: 0 15px;
+	}
+	#slide-nav .navbar.slide-active {
+	    position: absolute;
+	    width: 60%;
+	    top: -1px;
+	    z-index: 1000;
+	}
+	#slide-nav #topmenu {
+	    background: #f7f7f7;
+	    left: -100%;
+	    width: 60%;
+	    min-width: 0;
+	    position: fixed;
+	    padding-left: 0;
+	    z-index: 100;
+	    top: 50px;
+	    margin: 0;
+	}
+	#slide-nav #topmenu .navbar-nav {
+	    min-width: 0;
+	    width: 100%;
+	    margin: 0;
+	}
+	#slide-nav #topmenu .navbar-nav .dropdown-menu li a {
+	    min-width: 0;
+	    width: 60%;
+	    white-space: normal;
+	}
+	#slide-nav {
+	    border-top: 0
+	}
+	#slide-nav.navbar-inverse #topmenu {
+	    background: #FFFFFF
+	}
+	/* this is behind the navigation but the navigation is not inside it so that the navigation is accessible and scrolls*/
+	#navbar-height-col {
+	    position: fixed;
+	    top: 0;
+	    height: 100%;
+        bottom:0;
+	    width: 60%;
+	    left: -60%;
+	    background: #f7f7f7;
+	}
+	#navbar-height-col.inverse {
+	    background: #FFFFFF;
+	    z-index: 1;
+	    border: 0;
+	}
+	#slide-nav .navbar-form {
+	    width: 100%;
+	    margin: 8px 0;
+	    text-align: center;
+	    overflow: hidden;
+	    /*fast clearfixer*/
+	}
+	#slide-nav .navbar-form .form-control {
+	    text-align: center
+	}
+	#slide-nav .navbar-form .btn {
+	    width: 100%
+	}
+}
+@media (min-width:768px) { 
+	#page-content {
+	    left: 0!important
+	}
+	.navbar.navbar-fixed-top.slide-active {
+	    position: fixed
+	}
+	.navbar-header {
+	    left: 0!important
+	}
+}
+
+
+.overlay {
+		position: fixed;
+		top: -22px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #000;
+		filter:alpha(opacity=50);
+		-moz-opacity:0.5;
+		-khtml-opacity: 0.5;
+		opacity: .5;
+		z-index: 0;
+		padding-top:22px !important;
+		
+	}
+	
+.slide-active .nav li a{
+font-size:15px !important;
+color:#000000!important;
+		
+}
+.slide-active .nav li:hover a{
+	
+	color:#000000!important;	
+}

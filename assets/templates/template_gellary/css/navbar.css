@@ -1,0 +1,12 @@
+body {
+  /*padding-top: 20px;*/
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background:#06A3EB;
+}

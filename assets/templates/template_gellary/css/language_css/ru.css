@@ -1,0 +1,33 @@
+/* CSS Document */
+
+.language_list
+{
+	width:230px;
+}
+#topmenu .nav > li > a
+{
+	padding:10px 15px;
+}
+
+@media only screen and (max-width: 1199px) { 
+
+	#topmenu .nav > li > a
+	{
+		padding:10px 9px;
+	}
+
+}
+
+@media only screen and (max-width: 991px) { 
+
+	.language_list
+	{
+		width:180px;
+	}
+	
+	#topmenu .nav > li > a
+	{
+		padding:10px 3px;
+	}
+
+}
